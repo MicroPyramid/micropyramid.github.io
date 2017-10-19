@@ -1,0 +1,106 @@
+body{
+  font-family: 'Droid Sans', sans-serif;
+  overflow-x: hidden;
+}
+
+#mainNav {
+  font-weight: 400;
+  text-transform: uppercase;
+  border: none;
+  background: #305371;
+}
+#mainNav a:focus {
+  outline: 0
+}
+#mainNav .navbar-brand {
+  font-size: 1.1rem;
+  color: #fff
+}
+#mainNav .navbar-brand.active,
+#mainNav .navbar-brand:active,
+#mainNav .navbar-brand:focus,
+#mainNav .navbar-brand:hover {
+  color: #fff
+}
+#mainNav .navbar-nav {
+  letter-spacing: 1px
+}
+#mainNav .navbar-nav li.nav-item a.nav-link {
+  color: #fff
+}
+#mainNav .navbar-nav li.nav-item a.nav-link:hover {
+  color: #18bc9c;
+  outline: 0
+}
+#mainNav .navbar-nav li.nav-item a.nav-link:active,
+#mainNav .navbar-nav li.nav-item a.nav-link:focus {
+  color: #fff
+}
+#mainNav .navbar-toggler {
+  font-size: 14px;
+  padding: 11px;
+  text-transform: uppercase;
+  color: #fff;
+  border-color: #fff
+}
+#mainNav .navbar-toggler:focus,
+#mainNav .navbar-toggler:hover {
+  color: #fff;
+  border-color: #18bc9c;
+  background-color: #18bc9c
+}
+@media (min-width: 992px) {
+  #mainNav {
+      padding-top: 25px;
+      padding-bottom: 25px;
+      -webkit-transition: padding-top .3s, padding-bottom .3s;
+      -moz-transition: padding-top .3s, padding-bottom .3s;
+      transition: padding-top .3s, padding-bottom .3s
+  }
+  #mainNav .navbar-brand {
+      font-size: 2em;
+      -webkit-transition: all .3s;
+      -moz-transition: all .3s;
+      transition: all .3s
+  }
+  #mainNav .navbar-nav>li.nav-item>a.nav-link.active {
+      color: #fff;
+      border-radius: 3px;
+      background: #18bc9c
+  }
+  #mainNav .navbar-nav>li.nav-item>a.nav-link.active:active,
+  #mainNav .navbar-nav>li.nav-item>a.nav-link.active:focus,
+  #mainNav .navbar-nav>li.nav-item>a.nav-link.active:hover {
+      color: #fff;
+      background: #18bc9c
+  }
+  #mainNav.navbar-shrink {
+      padding-top: 10px;
+      padding-bottom: 10px
+  }
+  #mainNav.navbar-shrink .navbar-brand {
+      font-size: 1.5em
+  }
+}
+
+header.masthead{
+  padding-top:50px;
+  padding-bottom:50px;
+  text-align:center;
+  color:#fff;
+  background: #19acde;
+}
+
+.ourmessage{
+  padding-top: 100px;
+  font-family: 'Droid Sans', sans-serif;
+  font-weight: 700 !important;
+}
+
+.projects{
+  padding: 40px;
+}
+
+.projects_list_title{
+  padding-top: 50px;
+}
